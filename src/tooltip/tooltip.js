@@ -344,7 +344,7 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
     restrict: 'EA',
     replace: true,
     scope: { content: '@', placement: '@', animation: '&', isOpen: '&' },
-    templateUrl: 'template/tooltip/tooltip-popup.html'
+    templateUrl: 'https://rawgit.com/poupougnac/bootstrap/master/template/tooltip/tooltip-popup.html'
   };
 })
 
@@ -357,7 +357,7 @@ angular.module( 'ui.bootstrap.tooltip', [ 'ui.bootstrap.position', 'ui.bootstrap
     restrict: 'EA',
     replace: true,
     scope: { content: '@', placement: '@', animation: '&', isOpen: '&' },
-    templateUrl: 'template/tooltip/tooltip-html-unsafe-popup.html'
+    templateUrl: 'https://rawgit.com/poupougnac/bootstrap/master/template/tooltip/tooltip-html-unsafe-popup.html'
   };
 })
 
